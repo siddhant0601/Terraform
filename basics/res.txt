@@ -1,0 +1,247 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Siddhant Rana} \\ \vspace{1pt}
+    Amroha, Uttar Pradesh \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 8958960069 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{siddhant0601@gmail.com}} ~ 
+    \href{https:linkedin.com/in/siddhant-rana-6035bb157}{\raisebox{-0.2\height}\faLinkedin\ \underline{siddhant-rana}}  ~
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indraprastha Institute of Information Technology Delhi}{New Delhi, India}
+      {Bachelor of Technology - Computer Science;  GPA: 8.04}{2021 - present}
+    \resumeSubHeadingListEnd
+	    
+\vspace{-15pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart 
+	\resumeSubItem{Languages}{~~~~~C, C++ with STL, Java, Python, HTML, CSS, JavaScript}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~Git/GitHub, Figma, Canva, Burp Suite, Linux, Windows, Jenkins, Google Colab, Docker, Salesforce Apex}
+	\resumeSubItem{Technologies}{~~~NodeJs, ExpressJs, MySQL, MongoDB, Elasticsearch, Amazon Web Service(AWS), Junit Testing, Ansible }
+	\resumeSubItem{Expertise Area}{Problem Solving, Competitive Programming, Object-Oriented Programming, CS Fundamentals}
+    \resumeSubItem{Soft Skills}{~~~~~~~Excellent communication, Adaptability and Learning Agility, Teamwork, Time Management, Multitasking
+}
+
+%-----------EXPERIENCE-----------
+\resumeSubHeadingListEnd
+\vspace{-8pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+   \resumeSubheading{AMS (Advance Multi-core Systems) Lab, IIIT-Delhi}{Jan, 24 – May, 24}
+    {Backend Developer $|$ \emph{NodeJs, Express, MySQL, Socket.IO, AWS EC2 and S3, Google Cloud Platform}}{}
+    \resumeItemListStart
+        \resumeItem{}
+        {Contributed to the development of a full-stack visitor management system with \textbf{facial recognition}, utilizing the \textbf{HOG} algorithm to enhance campus security.} 
+        \resumeItem{}
+    {Revamped backend functionality by implementing innovative solutions, achieving a 50\% reduction in verification time.}
+
+    % {Developed a \textbf{full-stack visitor management system} with \textbf{facial recognition} using the \textbf{HOG algorithm}, enhancing \textbf{campus security} and reducing \textbf{verification time by 50\%}.}
+\resumeItem{}
+    {Integrated \textbf{Google Calendar API} with facial recognition for \textbf{automated meeting scheduling}.}
+      \resumeItemListEnd
+\vspace{-2}
+ \resumeSubheading
+		{Cryptography lab, IIITD}{May, 24 – July, 24}
+		{Research intern}{}
+		\resumeItemListStart
+        \resumeItem{}
+          {Analyzed and researched techniques to categorize malware APKs using static analysis and VT reports.}
+        \resumeItem{}
+          {Focused on identifying APKs using various VPN protocols through active probing}
+		\resumeItemListEnd
+\vspace{-2pt}
+\resumeSubheading
+{\textbf{Cosy Lab, IIIT-Delhi} \hfill \href{https://cosylab.iiitd.edu.in/foodlabel/#/}{{Deployed link}}}{Aug, 24 – Dec, 24}  
+{Backend Developer $|$ \emph{Python, Flask, Elasticsearch, NodeJs, Express}}{}  
+\resumeItemListStart  
+  \resumeItem{Collaborated within a team of 4 to develop the backend for a \textbf{nutritional search app} with scalable architecture supporting an \textbf{8L+ entry dataset}, enabling searches by \textbf{NOVA Class}, nutrients, and filters.}
+\resumeItem{Integrated \textbf{Machine Learning models} for NOVA class prediction, enabling \textbf{data insights}.}
+\resumeItem{Refined \textbf{Elasticsearch} search, boosting \textbf{query speed} by \textbf{80\%}, enhancing \textbf{user experience} ratings by \textbf{25\%}}
+
+
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-15pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+     \resumeProjectHeading
+    {\textbf{Retro Board Application} $|$ \emph{Salesforce DX, Lightning Web Components (LWC), Apex}}{July 2024}
+    \resumeItemListStart
+        \resumeItem{Retro Board application designed to streamline team retrospectives, allowing users to create, view, and manage boards for effective feedback and discussion.}
+        \resumeItem{Includes features to create new boards, display a list of existing boards, delete and add boards}
+
+    \resumeItemListEnd
+
+      \vspace{-16pt}
+      \resumeProjectHeading
+    {\textbf{Property Dealing Website} $|$ \emph{NodeJS, NPM, ReactJS, Express, MySQL (Database)}}{November 2023}
+    \resumeItemListStart
+%         \resumeItem{Developed a secure platform for \textbf{buying}, \textbf{renting}, and \textbf{selling properties online}, incorporating high-level design principles such as \textbf{rate limiting} and handling \textbf{idempotent POST APIs}.}
+% \resumeItem{Implemented robust security measures, including protection against \textbf{SQL injection}, \textbf{XSS}, \textbf{password/OTP verification}, and \textbf{hashing}, ensuring \textbf{secure login authentication} with \textbf{certificates}.}
+% \resumeItem{Performed \textbf{penetration testing} using tools like \textbf{Burp Suite} to identify and fix vulnerabilities.}
+\resumeItem{Created a secure platform for \textbf{buying}, \textbf{renting}, and \textbf{selling properties online} with rate limiting.}
+        \resumeItem{Implemented advanced security measures, including protection against \textbf{SQL injection} and \textbf{Cross-Site Scripting}}
+\resumeItem{Designed and ensured \textbf{secure login authentication} using \textbf{certificates} and \textbf{OTP verification}.}
+\resumeItem{Conducted \textbf{penetration testing} with tools like \textbf{Burp Suite} to identify and remediate vulnerabilities, ensuring robust application security.}
+
+    \resumeItemListEnd
+    
+          \vspace{-16pt}
+          \resumeProjectHeading
+          {\textbf{MyBasket} $|$ \emph{Python, MySQL, Elasticsearch, Logstash}}{July 2023}
+          \resumeItemListStart
+            \resumeItem{Engineered  an \textbf{e-commerce platform} for \textbf{product management}, \textbf{order processing}, and \textbf{CRM} operations.}
+\resumeItem{Accelerated MySQL query performance by \textbf{98.9\%} using advanced indexing strategies.}
+\resumeItem{Integrated \textbf{Elasticsearch} with MySQL, reducing query execution times by \textbf{96.2\%} and enhancing analytics for large datasets.}
+
+          \resumeItemListEnd
+          \vspace{-1pt}
+    
+          
+    \resumeSubHeadingListEnd
+
+%-----------INVOLVEMENT---------------
+\section{Volunteer Experience / Achievements}
+    \resumeSubHeadingListStart
+        % \resumeSubheading{leader}{date}{}{}
+            \resumeItemListStart
+                 \resumeItem{Teaching Assistant for Operating Systems and Multivariate Calculus course with a class of 200+ students resolved doubts of students, handled task of evaluating assignments.}
+                \resumeItem{Solved \textbf{1000+ algorithms and data structures} problems on LeetCode, CodeForces, GeeksForGeeks}
+                \resumeItem{Achieved 100 days badge for two consecutive years (2022 and 2023)}
+                % \resumeItem{Volunteered at Bal Vikas Sewa Sansthan, raising education awareness, assisting with midday meal distribution, building connections with children, and supporting fundraising efforts}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+\end{document}
